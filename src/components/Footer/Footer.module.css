@@ -1,0 +1,28 @@
+.Footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ height: 2.5rem;
+ background-color: #cca353;
+}
+
+.footerContainer {
+ display: flex;
+ height: 100%;
+ justify-content: center;
+ align-items: center;
+}
+
+.footerContainer p {
+ margin: 0;
+}
+
+.link {
+ color: #fff;
+ text-decoration: none;
+}
+
+.link:hover {
+ color: green;
+ transition: 1s color ease-out;
+}
